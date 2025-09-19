@@ -1,0 +1,11 @@
+import { Link } from "react-router-dom"
+
+const Login = () => {
+  return(
+    <>
+    <h1>Login</h1>
+    <Link to="/">Para a home</Link>
+    </>
+  )
+}
+export default Login;
