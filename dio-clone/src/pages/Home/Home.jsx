@@ -3,7 +3,7 @@ import { Button } from "../../components/Button/Button";
 import { Header } from "../../components/Header/Header";
 import bannerImage from "../../assets/banner.png";
 import { Container, TextContent, Title, TitleHighlight } from "./styles.js";
-const Home = () => {
+const Login = () => {
   return (
     <>
       <Header />
@@ -34,4 +34,4 @@ const Home = () => {
     </>
   );
 };
-export default Home;
+export default Login;

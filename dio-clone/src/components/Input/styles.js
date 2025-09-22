@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const InputContainer = styled.div`
     width: 100%;
     max-width: 275px;
-    height: 38px;
-    border-bottom: 1px solid #383450;
+    height: 30px;
+    border-bottom: 1px solid #3B3450;
     
     display:flex;
     align-items: center;
@@ -18,4 +18,5 @@ export const InputText = styled.input`
     color: #ffffff
     border: 0;
     height: 30px;
+    width: 100%;
 `
