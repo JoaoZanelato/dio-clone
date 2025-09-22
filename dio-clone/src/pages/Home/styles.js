@@ -4,7 +4,7 @@ export const Container = styled.main`
   width: 100%;
   max-width: 80%;
   margin: 0 auto;
-  maring-top: 120px;
+  margin-top: 120px;
 
   display: flex;
   flex-direction: row;
@@ -12,7 +12,7 @@ export const Container = styled.main`
   align-items: center;
 `;
 export const Title = styled.h2`
-  font-family: "Open-Sans";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -26,7 +26,7 @@ export const TitleHighlight = styled.span`
   color: #e41050;
 `;
 export const TextContent = styled.p`
-  font-family: "Open-Sans";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

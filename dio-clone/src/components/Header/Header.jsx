@@ -2,7 +2,6 @@ import { Button } from "../Button/Button.jsx";
 import dio_logo from "../../assets/logo-dio.png";
 import {
   BuscarInputContainer,
-  Column,
   Container,
   Input,
   Menu,

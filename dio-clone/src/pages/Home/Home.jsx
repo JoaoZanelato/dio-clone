@@ -16,12 +16,16 @@ const Home = () => {
             </TitleHighlight>
             o seu futuro global agora!
           </Title>
-          <TitleContent>
+          <TextContent>
             Domine as tecnologias utilizadas pelas empresas inovadoras do mundo
             e encare seu novo desafio profisisonal, evoluind em comunidade com
             os melhores experts.
-          </TitleContent>
-          <Button title="Começar agora" variant="secondary" onClick={() => null}/>
+          </TextContent>
+          <Button
+            title="Começar agora"
+            variant="secondary"
+            onClick={() => null}
+          />
         </div>
         <div>
           <img src={bannerImage} alt="banner" />
