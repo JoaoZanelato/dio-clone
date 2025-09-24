@@ -3,11 +3,13 @@ import { Container, NameText, Progress, UserPicture } from "./styles";
 const UserInfo = ({ name, img, percentual }) => {
   return (
     <Container>
-      <UserPicture src={img}>
+      <UserPicture src={img} />
+      <div>
         <NameText>{name}</NameText>
         <Progress percentual={percentual} />
-      </UserPicture>
+      </div>
     </Container>
   );
 };
+
 export { UserInfo };
