@@ -13,7 +13,7 @@ import {
 } from "./styles.js";
 import { Input } from "../../components/Input/Input.jsx";
 import {MdEmail, MdLock} from 'react-icons/md'
-const Home = () => {
+const Login = () => {
   return (
     <>
       <Header />
@@ -48,4 +48,4 @@ const Home = () => {
     </>
   );
 };
-export default Home;
+export default Login;

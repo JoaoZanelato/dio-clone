@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { Button } from "../../components/Button/Button";
-import { Header } from "../../components/Header/Header";
+import { Button } from "../../components/Button/Button.jsx";
+import { Header } from "../../components/Header/Header.jsx";
 import bannerImage from "../../assets/banner.png";
 import { Container, TextContent, Title, TitleHighlight } from "./styles.js";
-const Login = () => {
+const Home = () => {
   return (
     <>
       <Header />
@@ -34,4 +34,4 @@ const Login = () => {
     </>
   );
 };
-export default Login;
+export default Home;
