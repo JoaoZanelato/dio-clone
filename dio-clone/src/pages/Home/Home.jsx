@@ -3,12 +3,14 @@ import { Button } from "../../components/Button/Button.jsx";
 import { Header } from "../../components/Header/Header.jsx";
 import bannerImage from "../../assets/banner.png";
 import { Container, TextContent, Title, TitleHighlight } from "./styles.js";
+
 const Home = () => {
   const navigate = useNavigate();
 
   const handleClickSignIn = () => {
     navigate("/login");
   };
+
   return (
     <>
       <Header />
@@ -23,13 +25,13 @@ const Home = () => {
           </Title>
           <TextContent>
             Domine as tecnologias utilizadas pelas empresas inovadoras do mundo
-            e encare seu novo desafio profisisonal, evoluind em comunidade com
+            e encare seu novo desafio profisisonal, evoluindo em comunidade com
             os melhores experts.
-          </TextContent>
+          </TextContent>  
           <Button
             title="Começar agora"
             variant="secondary"
-            onClick={() => handleClickSignIn}
+            onClick={handleClickSignIn} 
           />
         </div>
         <div>
@@ -39,4 +41,5 @@ const Home = () => {
     </>
   );
 };
+
 export default Home;
